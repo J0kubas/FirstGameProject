@@ -15,7 +15,7 @@ class Ship:
 class Enemy(Ship):
     def __init__(self, x, y, health=100):
         super().__init__(x, y, health=health)
-        ship_img = pygame.image.load(os.path.join("FirstGame\\Assets","Asteroid (anim1).png"))
+        ship_img = pygame.image.load(os.path.join("FirstGame\\Assets","Asteroid_(anim1).png"))
         self.ship_img = ship_img
         self.mask = pygame.mask.from_surface(self.ship_img)
 

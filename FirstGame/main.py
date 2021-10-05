@@ -1,4 +1,4 @@
-import pygame, sys, random
+import pygame, random
 from player import Player
 from enemy import *
 
